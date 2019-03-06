@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.107.112.131:6608/fmis?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+
+  devtools:
+    restart:
+      enabled: true
+
+
+server:
+#  port: 8080
+  servlet:
+    context-path: /fmis
+
+mybatis-plus:
+  type-aliases-package: com.zhenghao.fmis.entity
+  mapper-locations: classpath:mapper/*Mapper.xml
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+        #驼峰下划线转换
+      column-underline: true
+        #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+logging:
+  config: classpath:config/slf4j.xml
