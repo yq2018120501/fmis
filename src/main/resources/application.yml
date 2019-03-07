@@ -8,7 +8,12 @@ spring:
   devtools:
     restart:
       enabled: true
-
+  thymeleaf:
+    mode: HTML5
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+    cache: false
 
 server:
 #  port: 8080
@@ -18,6 +23,8 @@ server:
 mybatis-plus:
   type-aliases-package: com.zhenghao.fmis.entity
   mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    auto-mapping-behavior: full
   global-config:
     db-config:
       id-type: auto
