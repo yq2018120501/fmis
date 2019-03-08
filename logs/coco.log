@@ -16,3 +16,163 @@
 2019-03-07 22:09:41.959 [ http-nio-8080-exec-3 ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-03-07 22:09:42.021 [ http-nio-8080-exec-3 ] - [ INFO  ] [ o.a.s.session.mgt.AbstractValidatingSessionManager : 233 ] - Enabling session validation scheduler...
 2019-03-07 23:38:14.640 [ HikariPool-1 housekeeper ] - [ WARN  ] [ com.zaxxer.hikari.pool.HikariPool : 766 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m17s875ms).
+2019-03-08 08:59:39.373 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 50 ] - Starting FmisApplication on 7VHGD2I4U7IWJY9 with PID 3292 (E:\fmis\target\classes started by Administrator in E:\fmis)
+2019-03-08 08:59:39.377 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 08:59:40.665 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 08:59:41.399 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 08:59:41.516 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 08:59:41.565 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 08:59:42.411 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 08:59:42.420 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-08 08:59:42.421 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-08 08:59:42.427 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\jdk1.8.0_71\bin;D:\jdk1.8.0_71\jre\bin;D:\maven\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\Git\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+2019-03-08 08:59:42.609 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-08 08:59:42.798 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 08:59:43.342 [ restartedMain ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 08:59:43.693 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-08 08:59:43.721 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 59 ] - Started FmisApplication in 4.834 seconds (JVM running for 6.895)
+2019-03-08 09:04:49.781 [ http-nio-8080-exec-5 ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-08 09:04:49.812 [ http-nio-8080-exec-5 ] - [ INFO  ] [ o.a.s.session.mgt.AbstractValidatingSessionManager : 233 ] - Enabling session validation scheduler...
+2019-03-08 09:34:06.738 [ Thread-20 ] - [ INFO  ] [ o.a.s.session.mgt.AbstractValidatingSessionManager : 250 ] - Disabled session validation scheduler.
+2019-03-08 09:34:06.741 [ Thread-20 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 09:34:06.750 [ Thread-20 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-03-08 10:32:19.786 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 50 ] - Starting FmisApplication on 7VHGD2I4U7IWJY9 with PID 2920 (E:\fmis\target\classes started by Administrator in E:\fmis)
+2019-03-08 10:32:19.790 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 10:32:21.104 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 10:32:21.889 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 10:32:21.999 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 10:32:22.053 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 10:32:22.908 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 10:32:22.918 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-08 10:32:22.919 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-08 10:32:22.925 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\jdk1.8.0_71\bin;D:\jdk1.8.0_71\jre\bin;D:\maven\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\Git\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+2019-03-08 10:32:23.104 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-08 10:32:23.289 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 10:32:23.774 [ restartedMain ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 10:32:24.122 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-08 10:32:24.151 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 59 ] - Started FmisApplication in 5.004 seconds (JVM running for 6.378)
+2019-03-08 10:32:30.407 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-08 10:32:30.443 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.s.session.mgt.AbstractValidatingSessionManager : 233 ] - Enabling session validation scheduler...
+2019-03-08 10:32:39.470 [ Thread-20 ] - [ INFO  ] [ o.a.s.session.mgt.AbstractValidatingSessionManager : 250 ] - Disabled session validation scheduler.
+2019-03-08 10:32:39.471 [ Thread-20 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 10:32:39.483 [ Thread-20 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-03-08 10:50:23.416 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 50 ] - Starting FmisApplicationTests on 7VHGD2I4U7IWJY9 with PID 9192 (started by Administrator in E:\fmis)
+2019-03-08 10:50:23.417 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 10:50:24.765 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 10:50:25.472 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 10:50:25.581 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 10:50:25.636 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 10:50:26.297 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 10:50:27.293 [ main ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 10:50:27.734 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 59 ] - Started FmisApplicationTests in 4.781 seconds (JVM running for 5.704)
+2019-03-08 10:50:28.228 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 10:50:28.511 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-03-08 10:52:26.009 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 50 ] - Starting FmisApplicationTests on 7VHGD2I4U7IWJY9 with PID 4784 (started by Administrator in E:\fmis)
+2019-03-08 10:52:26.011 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 10:52:27.380 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 10:52:28.268 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 10:52:28.382 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 10:52:28.438 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 10:52:29.214 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 10:52:30.261 [ main ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 10:52:30.824 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 59 ] - Started FmisApplicationTests in 5.267 seconds (JVM running for 6.161)
+2019-03-08 10:52:31.275 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 10:52:31.701 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-03-08 10:53:16.076 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 50 ] - Starting FmisApplicationTests on 7VHGD2I4U7IWJY9 with PID 1120 (started by Administrator in E:\fmis)
+2019-03-08 10:53:16.077 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 10:53:17.360 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 10:53:18.229 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 10:53:18.335 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 10:53:18.391 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 10:53:19.107 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 10:53:20.192 [ main ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 10:53:20.630 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 59 ] - Started FmisApplicationTests in 5.006 seconds (JVM running for 5.886)
+2019-03-08 10:53:21.087 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 10:53:21.377 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-03-08 11:14:59.408 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 50 ] - Starting FmisApplicationTests on 7VHGD2I4U7IWJY9 with PID 9880 (started by Administrator in E:\fmis)
+2019-03-08 11:14:59.409 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 11:15:01.080 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 11:15:01.947 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 11:15:02.068 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 11:15:02.134 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 11:15:02.936 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 11:15:04.125 [ main ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 11:15:04.624 [ main ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplicationTests : 59 ] - Started FmisApplicationTests in 5.78 seconds (JVM running for 6.803)
+2019-03-08 11:15:05.146 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 11:15:05.641 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-03-08 11:22:39.657 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 50 ] - Starting FmisApplication on 7VHGD2I4U7IWJY9 with PID 8188 (E:\fmis\target\classes started by Administrator in E:\fmis)
+2019-03-08 11:22:39.661 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 11:22:40.966 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 11:22:41.729 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 11:22:41.830 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 11:22:41.884 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 11:22:42.664 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 11:22:42.675 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-08 11:22:42.676 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-08 11:22:42.684 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\jdk1.8.0_71\bin;D:\jdk1.8.0_71\jre\bin;D:\maven\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\Git\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+2019-03-08 11:22:42.867 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-08 11:22:43.038 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 11:22:43.475 [ restartedMain ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 11:22:43.777 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-08 11:22:43.791 [ restartedMain ] - [ ERROR ] [ org.apache.catalina.util.LifecycleBase : 175 ] - Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.zhenghao.fmis.FmisApplication.main(FmisApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-03-08 11:22:43.795 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Pausing ProtocolHandler ["http-nio-8080"]
+2019-03-08 11:22:43.795 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-03-08 11:22:43.800 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.util.LifecycleBase : 173 ] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-03-08 11:22:43.801 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Stopping ProtocolHandler ["http-nio-8080"]
+2019-03-08 11:22:43.801 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Destroying ProtocolHandler ["http-nio-8080"]
+2019-03-08 11:22:43.818 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 11:22:44.239 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-03-08 11:23:20.370 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 50 ] - Starting FmisApplication on 7VHGD2I4U7IWJY9 with PID 5772 (E:\fmis\target\classes started by Administrator in E:\fmis)
+2019-03-08 11:23:20.376 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-08 11:23:21.747 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-08 11:23:22.420 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-08 11:23:22.536 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Role.
+2019-03-08 11:23:22.597 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Users.
+2019-03-08 11:23:23.520 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 11:23:23.531 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-08 11:23:23.531 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-08 11:23:23.541 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\jdk1.8.0_71\bin;D:\jdk1.8.0_71\jre\bin;D:\maven\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files\Git\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+2019-03-08 11:23:23.738 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-08 11:23:23.949 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.fmis.entity.Permission.
+2019-03-08 11:23:24.511 [ restartedMain ] - [ WARN  ] [ org.thymeleaf.templatemode.TemplateMode : 150 ] - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-08 11:23:24.918 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-08 11:23:24.957 [ restartedMain ] - [ INFO  ] [ com.zhenghao.fmis.FmisApplication : 59 ] - Started FmisApplication in 5.159 seconds (JVM running for 7.65)
+2019-03-08 11:23:34.803 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat].[localhost].[/fmis] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-08 11:23:34.843 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.s.session.mgt.AbstractValidatingSessionManager : 233 ] - Enabling session validation scheduler...
+2019-03-08 11:25:20.206 [ Thread-22 ] - [ INFO  ] [ o.a.s.session.mgt.AbstractValidatingSessionManager : 250 ] - Disabled session validation scheduler.
+2019-03-08 11:25:20.207 [ Thread-22 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-03-08 11:25:20.216 [ Thread-22 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.

@@ -154,6 +154,8 @@
         </dependency>
     </dependencies>
 
+    <packaging>war</packaging>
+
     <build>
         <plugins>
             <plugin>
@@ -161,5 +163,14 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <!-- 产生的构件的文件名，默认值是${artifactId}-${version}。 -->
+        <finalName>fmis</finalName>
+        <resources>
+            <resource>
+                <targetPath>META-INF/tmp</targetPath>
+                <filtering>false</filtering>
+                <directory>/templates</directory>
+            </resource>
+        </resources>
     </build>
 </project>
